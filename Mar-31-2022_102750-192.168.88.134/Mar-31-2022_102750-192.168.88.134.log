@@ -1,0 +1,25 @@
+
+Pen Test Log for 192.168.88.134 on Thu 31 Mar 2022 10:27:50 IST
+---
+
+Network - 192.168.88.0/24
+Target IP - 192.168.88.134
+Scan Perfomed - masscan 192.168.88.134 --port 10-4000
+
+---
+
+Scan results: 
+------------------------------------------------------------------------
+
+Ports discovered on 192.168.88.134: 
+
+	|Open port:       2121|Protocol:        tcp|
+	|Open port:         53|Protocol:        tcp|
+	|Open port:       3632|Protocol:        tcp|
+	|Open port:        111|Protocol:        tcp|
+	|Open port:       1099|Protocol:        tcp|
+	|Open port:        512|Protocol:        tcp|
+	|Open port:         25|Protocol:        tcp|
+	|Open port:         21|Protocol:        tcp|
+	|Open port:        513|Protocol:        tcp|
+	|Open port:        139|Protocol:        tcp|
